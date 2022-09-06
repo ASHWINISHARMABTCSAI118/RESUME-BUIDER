@@ -1,0 +1,103 @@
+.heading{
+    color:rgb(96,188,170);
+    margin-top: 25px;
+}
+.nameColor{
+    color:rgb(96,188,170);
+}
+.highSize{
+    font-size: 21px;
+}
+.mediumSize{
+    font-size: 15px;
+}
+.smallSize{
+    font-size: 12px;
+}
+.inputField{
+    padding: 4px;
+    width: 80%;
+    margin-left:12px; 
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.inputFieldDiv{
+    padding: 5px;
+    margin: 5px;
+    margin-top: 15px;
+    border: 3px solid green;
+}
+.selectFields{
+    width: 80%;
+    padding: 3px;
+    margin-left: 12px;
+}
+.button{
+    background-color: rgba(240, 240, 240, 0.26);
+    border: 1px solid #DFDFDF;
+    border-radius: 16px;
+    font-size: 18px;
+    justify-content: center;
+    color: #000000;
+    width: 40%;
+    margin: 5px;
+}
+.buttonDelete{
+    background-color: rgba(243, 11, 11, 0.733);
+    border: 1px solid #DFDFDF;
+    border-radius: 16px;
+    font-size: 18px;
+    justify-content: center;
+    color: #000000;
+    width: 40%;
+    margin: 5px;
+}
+.divMargin{
+    margin: 8px;
+}
+.skills{
+    background-color:rgb(96,188,170);
+    margin: 4px;
+}
+.workLocation{
+    font-size: 12px;
+    text-align: end;
+}
+.langName{
+    font-size: 17px;
+}
+.langEx{
+    font-size: 12px;
+    color:rgb(96,188,170)"
+}
+.flex-container {
+    display: flex;
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    padding: 1px;
+  }
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    top: 0;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: blue;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: red;
+  }
+  .marginPersonalDetails{
+      margin-right: 16px;
+      margin-top: 10px;
+  }

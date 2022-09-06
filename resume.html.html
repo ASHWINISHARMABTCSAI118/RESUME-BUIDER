@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  padding: 1px;
+}
+img {
+  border-radius: 50%;
+}
+h1,h2,h3,h4,h5,h6,p{
+          margin-top: 2px;
+          margin-bottom: 2px;
+          margin-left: 16px;
+        }
+</style>
+<link rel="stylesheet" href="resume.css">
+</head>
+<body>
+
+<div class="flex-container">
+
+    <div style="width: 24%; background-color: #F5F5DC">
+         <!-- updating resume details -->
+         <div style="margin-top: 80px;">
+
+          <div>
+            <select name="select" id="selectId" class="selectFields">
+              <option value="select option">select option</option>
+              <option value="Name">Name</option>
+              <option value="Education">Education</option>
+              <option value="Work Experience">Work Experience</option>
+              <option value="Skills">Skills</option>
+              <option value="Personal Projects">Personal Projects</option>
+              <option value="Languages">Languages</option>
+          </select>
+        </div>
+
+        <div id="inputFields">
+        </div>
+
+        <div>
+          <input type="submit" value="Submit" id="submitButton" class="button">  
+          <input type="submit" value="Reset" id="resetButton" class="button"> 
+          <input type="submit" value="Cancel" id="cancelButton" class="button">
+          <input type="submit" value="Add" id="addButton" class="button">
+        </div>
+      </div>
+    </div>
+
+
+  <div style="width: 76%; padding-right: 5px;">
+
+    <div class="flex-container">
+
+      <div style="width: 40%; padding-right: 5px;">
+        <div id="personalDetails"> 
+          <div id="personalDetails0">
+            <h2 style="color:rgb(96,188,170)" id="personName0">Ashwini Sharma</h2>
+            <p style="font-size: 19px;" id="personAbout0">Student At IGDTUW </p>
+            <p style="font-size: 12px;" id="PersonSubDescription0">I am highly motivated Sophomore at IGDTUW with a firm goal of making Software Development and Machine Learningvmy Career's center point.As of now I'm focused of enhancing my DSA and Development skills</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="width: 30%; padding-right: 5px;">
+        <img src="ashwini.jpeg.jpg" style="width: 130px;height: 130px;">
+      </div>
+
+      <div style="width: 30%; padding-right: 5px;">
+        <div style="text-align: right" class="marginPersonalDetails">
+          <a style="margin: 5px;" href="mailto:drashsharmamck@gmail.com" target="_blank" id="profileImage">drashsharmamck@gmail.com</a>
+          <p id="contactNumber" style="margin: 5px;">7908252043</p>
+          <p id="address" style="margin: 5px;">Durgapur,West Bengal</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="flex-container">
+
+      <div style="width: 50%; padding-right: 5px;">
+        <div id="education">
+          <h3 class="heading"> <u>EDUCATION</u></h3>
+          <div id="education0" class="divMargin">
+            <h3 id="educationDegree0">B. Tech</h3>
+                <p class="highSize">Indira Gandhi Delhi Technical University for Women,Delhi</p>
+                <p class="smallSize">07/2022-Present <span style="font-size: 12px;float: right;">8.93 CGPA</span> </p>
+                <p class="mediumSize" id="educationBranch0">- Computer Science and Artificial Intelligence</p>
+          </div>
+          <div id="education1" class="divMargin">
+            <h3 id="educationDegree1">12th</h3>
+                <p class="highSize" id="educationCollege1">Durgapur Public School</p>
+                <p class="smallSize" id="educationDate1">05/2016-05/2018 <span style="font-size: 12px;float: right;">92.7%</span> </p>
+                <p class="mediumSize" id="educationBranch0"></p>
+          </div>
+          <div id="education2" class="divMargin">
+            <h3 id="educationDegree2">10th</h3>
+                <p class="highSize" id="educationCollege2">Durgapur Public School</p>
+                <p class="smallSize" id="educationDate2">06/2018-05/2020 <span style="font-size: 12px;float: right;">95%</span> </p>
+                <p class="mediumSize" id="educationBranch0"></p>
+          </div>
+        </div>
+        <div id="workExperience">
+          <h3 style="color:rgb(96,188,170); margin-top: 25px;"> <u>WORK EXPERIENCE</u></h3>
+          <div id="workExperience0" class="divMargin">
+            <h3 id="workRoleName0">Student At IGDTUW</h3>
+                <p class="highSize" id="workCompanyName0">IGDTUW</p>
+                <p class="smallSize" id="workDate0">11/2020 - 06/2021</p>
+                <p class="workLocation" id="workPlace0">Durgapur , West Bengal</p>
+                <p class="smallSize" id="workDescription0">Achievements/Tasks :-</p>
+                <p style="font-size: 13px;">- •	FITJEE BIG BANG(AIR-5)
+                  •	NationalScienceOlympiad ZONAL RANK-2
+                  •	NationalScienceOlympiad ZONAL RANK-5
+                  •	ALL INDIA CAMEL COLOUR CONTEST(AIR-2)
+                  •	NEET 2020 AIR-8765
+                  •	JEE MAINS 2021 AIR-6081
+                  
+                    
+                    </p>
+                <p style="font-size: 13px;">- I was a Mentor Coordinator at TARANGAANA-The Annual Cultural Fest At IGDTUW
+                    
+                  
+                    </p>
+                  
+          </div>
+          <div id="workExperience1" class="divMargin">
+            <h3 id="workRoleName1">WEBSCRAPPING USING PYTHON LIBRARY</h3>
+                <p class="highSize" id="workCompanyName1">YourFirstAd</p>
+                <p style="font-size: 12px;" id="workDate1">06/2021 - 07/2021</p>
+                <p class="workLocation" id="workPlace1">Remote, work from home</p>
+                <p class="smallSize" id="workDescription1">Achievements/Tasks :-</p>
+                <p style="font-size: 13px;">- Working in a team, developing reliable and useful products.
+                    learn how to work in a team and complete the task on time.</p>
+                   
+          </div>
+          <div id="workExperience2" class="divMargin">
+            <h3 id="workRoleName2">Mobile Application Developer</h3>
+                    <p class="highSize" id="workCompanyName2">OnePercent</p>
+                    <p class="smallSize" id="workDate2">09/2020 - 10/2020</p>
+                    <p class="workLocation" id="workPlace2">(work from home) Bengaluru, india</p>
+                    <p class="smallSize" id="workDescription2"></p>
+                    <a href="https://drive.google.com/file/d/1Yuzf8oOzITgPBNn63wYfLwVKkSfawYek/view?usp=sharing" target="_blank" style="font-size: 12px;" >Certificate Link</a>
+          </div>
+        </div> 
+      </div>
+
+      <div style="width: 50%; padding-left: 5px;">
+        <div id="skills" style="margin-left: 16px; margin-right: 16px;">
+          <h3 style="color:rgb(96,188,170);margin-top: 25px;"> <u>SKILLS</u></h3>
+                <div id="skill0" type="button" class="skills"> <p>Full Stack App Developer</p></div>
+                <div id="skill1" type="button" class="skills"><p>Problem solving</p></div>
+                <div id="skill2" type="button" class="skills"> <p>Data structure</p> </div>
+                <div id="skill3" type="button" class="skills"> <p>Algorithm</p> </div>
+                <div id="skill4" type="button" class="skills"> <p>Excel</p> </div>
+                <div id="skill5" type="button" class="skills"> <p>Android development</p> </div>
+                <div id="skill6" type="button" class="skills"><p>DBMS</p></div>
+                <div id="skill7" type="button" class="skills"><p>SQL</p></div>
+                <div id="skill8" type="button" class="skills"><p>OS</p></div>
+        </div>
+        <div id="personalProjects">
+          <h3 style="color:rgb(96,188,170); margin-top: 25px;" id="personalProjects"> <u>PERSONAL PROJECTS</u></h3>
+          <div id="personalProjects0" class="divMargin">
+            <p class="highSize" id="projectTitle0">WEBSCRAPPING-web automation price comparison on different e commerce sites</p>
+                <p class="smallSize" id="projectAbout0">- Web Scraping is a process of collecting relevant information from a particular webpage and then exporting that information in a proper format according to our needs. 
+
+                  Python package for web scraping: Beautiful Soup is a python library that helps in extracting data out of markup languages like HTML and XML. 
+                  
+                  Other python packages involved: requests
+                    </p>
+                <p style="font-size: 13px;">- 
+
+                  Fetching price data from three different websites
+                  
+                  Processing data including cleaning it for our purpose
+                  
+                  Comparing prices
+                  
+                  Storing Data
+                  
+                  Visualizing Prices
+                  
+                  Program to send Notifications about price change
+                  
+                    </p>
+                    <a href="https://colab.research.google.com/drive/13pYYLIBAzPAfCXMnzGNJ3bjkAAUYK2Ah" target="_blank" style="font-size: 12px;" >Project Link</a>
+                
+          </div>
+          <div id="personalProjects1" class="divMargin">
+            <p class="highSize" id="projectTitle1">FAKE STORE APP</p>
+            <p class="smallSize" id="projectAbout1">- help users to increase their productive time that they waste in many unwanted distractive apps. By this app they can block unwanted apps up to 3 hours they can stop time whenever they want. It also has parental lock by that user not allow to uninstall
+                    this app if they want they can stop it.</p>
+          </div>
+          <div id="personalProjects2" class="divMargin">
+            <p class="highSize" id="projectTitle2">RES8UME BUILDER WEB-APPLICATION</p>
+            <p class="smallSize" id="projectAbout2">- it show users a photo of an actor then user option to select one and
+                    show result at the end.</p>
+          </div>
+        </div>
+        <div id="languages">
+          <h3 style="color:rgb(96,188,170); margin-top: 25px;"> <u>LANGUAGES</u></h3>
+          <div id="languages0">
+            <p class="langName" id="lang0">JAVA</p>
+            <p class="langEx" id="langExperiance0">Full Professional Proficiency</p>
+          </div>
+          <div id="languages1">
+            <p style="font-size: 17px;text-align: end;" id="lang1">C</p>
+            <p style="font-size: 12px;color:rgb(96,188,170);text-align: end;" id="langExperiance1">Full Professional Proficiency</p>
+          </div>
+          <div id="language2">
+            <p class="langName" id="lang2">C++</p>
+            <p class="langEx" id="langExperiance2">Full Professional Proficiency</p>
+          </div>
+          <div id="languages3">
+            <p style="font-size: 17px;text-align: end;" id="lang3">XML</p>
+            <p style="font-size: 12px;color:rgb(96,188,170);text-align: end;" id="langExperiance3">Full Professional Proficiency</p>
+          </div>
+          <div id="language4">
+            <p class="langName" id="lang4">Python</p>
+            <p class="langEx" id="langExperiance4">Limited Working Proficiency</p>
+          </div>
+          <div id="languages5">
+            <p style="font-size: 17px;text-align: end;" id="lang5">Machine Learing</p>
+            <p style="font-size: 12px;color:rgb(96,188,170);text-align: end;" id="langExperiance5">Elementry Proficiency</p>
+          </div>
+        </div>
+        <div id="interests">
+          <h3 style="color:rgb(96,188,170); margin-top: 25px;"> <u>INTERESTS</u></h3>
+            <div type="button" class="skills" id="interest0">Dance</div>
+            <div type="button" class="skills" id="interest0">Creative Poetry Writting</div>
+            <div type="button" class="skills" id="interest0">Art and Craft</div>
+            <div type="button" class="skills" id="interest1">Mobile App Development</div>
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>
+<script src="resume.js"></script>
+</body>
+</html>
+
+
